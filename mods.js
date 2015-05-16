@@ -11,6 +11,7 @@ for (i=0; i<tester.length; i++ ){
 	}
 }
 
+
 if(discovered_mainouturl != 0) {
 	httpGet(discovered_mainouturl, function(data) {
 		gamejs = "window.agariomods = " + data.replace("socket open","socket open (agariomods.com mod in place)");
